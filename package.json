@@ -11,6 +11,7 @@
     "build": "npm run clean && npm run build:client",
     "build:client": "cross-env NODE_ENV=production webpack --config build/webpack.config.client.js",
     "precommit": "npm run lint-fix",
+    "pratice": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.pratice.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.client.js"
   },
   "author": "",
