@@ -68,6 +68,9 @@ if (isDev) {
     overlay: {
       errors: true,
     },
+    historyApiFallback: {
+      index: '/index.html'
+    },
     hot: true
   }
   config.plugins.push(
